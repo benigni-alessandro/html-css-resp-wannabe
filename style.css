@@ -73,128 +73,6 @@ img {
   clear: both;
 }
 
-/* Visualizzazione da 420px a 768px (tablet) */
-@media screen and (max-width: 768px){
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body{
-    width: 768px;
-    background-color: #000000;
-    color: white;
-    font-size: 1em;
-  }
-  .row{
-    width: 768px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #000000;
-  }
-  .row h1{
-    text-align: center;
-    padding-top: 10px;
-  }
-  #lezioni.container{
-    width: 100%;
-    margin-top: -100px;
-  }
-  #lezioni .row>.left{
-    width: 100%;
-    display: block;
-    text-align: center;
-  }
-  #lezioni .row>.left img{
-    width: 200px;
-    height: auto;
-    margin-top: 30px;
-  }
-  #lezioni .row>.right{
-    width: 100%;
-    display: block;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  #lezioni .row>.right img{
-    width: 300px;
-    height: auto;
-    margin-top: 30px;
-  }
-  #steps.container{
-    width: 100%;
-    margin-top: -90px;
-    background-color: white;
-  }
-  #steps .row>.left{
-    width: 100%;
-    display: block;
-    text-align: center;
-  }
-  #steps .row>.left img{
-    width: 200px;
-    height: auto;
-    margin-top: 40px;
-  }
-  #steps .row>.central{
-    width: 100%;
-    display: block;
-    text-align: center;
-  }
-  #steps .row>.central img{
-    width: 200px;
-    height: auto;
-    margin-top: 40px;
-  }
-  #steps .row>.right{
-    width: 100%;
-    display: block;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  #steps .row>.right img{
-    width: 200px;
-    height: auto;
-    margin-top: 40px;
-  }
-  #why.container{
-    width: 100%;
-    margin-top: -90px;
-    background-color: #000000;
-  }
-  #why .row>.first{
-    width: 100%;
-    display: block;
-    text-align: center;
-  }
-  #why .row>.first img{
-    width: 200px;
-    height: auto;
-    margin-top: -60px;
-  }
-  #why .row>.second{
-    width: 100%;
-    display: block;
-    text-align: center;
-  }
-  #why .row>.second img{
-    width: 200px;
-    height: auto;
-    margin-top: -60px;
-  }
-  #why .row>.third{
-    width: 100%;
-    display: block;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  #why .row>.third img{
-    width: 200px;
-    height: auto;
-    margin-top: -60px;
-  }
-}
-
 /* Visualizzazione fino a 420px */
 
 @media screen and (max-width: 420px){
@@ -313,6 +191,128 @@ img {
   }
   #why .row>.third img{
     width: 100px;
+    height: auto;
+    margin-top: -60px;
+  }
+}
+/* Visualizzazione da 420px a 768px (tablet) */
+@media screen and (min-width: 421px) and (max-width: 768px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    width: 768px;
+    color: white;
+    font-size: 1em;
+    background-color: black;
+  }
+  .row{
+    width: 768px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .row h1{
+    text-align: center;
+    padding-top: 10px;
+  }
+  #lezioni.container{
+    width: 100%;
+    margin-top: -100px;
+    background-color: black;
+  }
+  #lezioni .row>.left{
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  #lezioni .row>.left img{
+    width: 200px;
+    height: auto;
+    margin-top: 30px;
+  }
+  #lezioni .row>.right{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #lezioni .row>.right img{
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
+  }
+  #steps.container{
+    width: 100%;
+    margin-top: -90px;
+    background-color: white;
+    background-color: black;
+  }
+  #steps .row>.left{
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  #steps .row>.left img{
+    width: 200px;
+    height: auto;
+    margin-top: 40px;
+  }
+  #steps .row>.central{
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  #steps .row>.central img{
+    width: 200px;
+    height: auto;
+    margin-top: 40px;
+  }
+  #steps .row>.right{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #steps .row>.right img{
+    width: 200px;
+    height: auto;
+    margin-top: 40px;
+  }
+  #why.container{
+    width: 100%;
+    margin-top: -90px;
+    background-color: black;
+  }
+  #why .row>.first{
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  #why .row>.first img{
+    width: 200px;
+    height: auto;
+    margin-top: -60px;
+  }
+  #why .row>.second{
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  #why .row>.second img{
+    width: 200px;
+    height: auto;
+    margin-top: -60px;
+  }
+  #why .row>.third{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #why .row>.third img{
+    width: 200px;
     height: auto;
     margin-top: -60px;
   }
